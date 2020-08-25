@@ -1,0 +1,9 @@
+angle1 = int(input("angke1 = "))
+angle2 = int(input("angle2 = "))
+angle3 = int(input("angle3 = "))
+sum = angle1 + angle2 + angle3
+if sum == 180:
+  if (angle1 > 0 and angle2 > 0 and angle3 > 0):
+      print("valid")
+else:
+  print("invalid")   
