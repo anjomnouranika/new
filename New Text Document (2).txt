@@ -1,0 +1,37 @@
+note = int(input(""))
+if note >= 500:
+  a = note % 500
+  first = note - a
+  first = first / 500
+print("500:",round(first))   
+if note >= 100:
+  b = a % 100
+  sceond = a - b
+  sceond = (a - b) / 100
+print("100:",round(sceond))   
+if note >= 50:
+  c = a % 50
+  third = a - c
+  third = (a - c) / 50
+print("50:",round(third))  
+if note >= 20:
+  d = c % 20
+  fourth = c - d
+  fourth = fourth / 20
+print("20:",round(fourth))    
+if note >= 10: 
+  e = d % 10
+  fifth = d - e
+  fifth = fifth / 10
+print("10:",round(fifth))  
+if note >= 5:
+  f = e % 5
+  sixth = e - f
+  sixth = sixth /5
+print("5:",round(sixth))  
+print("10:",round(fifth))  
+if note >= 2:
+  g = f % 2
+  seventh = f - g
+  seventh = seventh / 2
+print("2:",round(seventh))  

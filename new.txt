@@ -1,0 +1,7 @@
+num = int(input("number = "))
+if num > 0:
+  print("the number %1d is positive"%(num))
+if num < 0:
+  print("the number %1d is negative"%(num))
+if num == 0:
+  print("the number %1d is zero"%(num))    

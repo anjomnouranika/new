@@ -1,0 +1,5 @@
+mon = int(input("Enter the month number :"))
+if mon % 2 == 0 in range (1,13):
+  print("It contains 30 days.")
+else:
+  print("It contains 31 days.")  

@@ -1,0 +1,18 @@
+physics = int(input("physics="))
+chemistry = int(input("chemistry = "))
+math = int(input("math = "))
+biology = int(input("biology = "))
+average = (physics + chemistry + biology + math) / 4
+print("Percentage =",average)
+if (average >= 90 and average <= 100):
+  print(" Grade A")
+elif (average >= 80 and average <= 90):
+  print("Grade B")
+elif(average >= 70  and average <=80 ):
+  print("Grade C")
+elif(average >= 60 and average <= 70):
+  print("Grade D")
+elif(average >= 40 and average <= 60):
+  print("Grade E")
+else:
+  print("Grade F")           
